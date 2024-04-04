@@ -3,23 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Collabrative Text Editor</title>
+    <title>Collaborative Text Editor</title>
     <link rel="stylesheet" href="./css/index.css" />
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.7.5/socket.io.min.js"
-      async
-    ></script>
   </head>
   <body>
+    <div class="user-section"></div>
     <div class="container">
       <div class="editor-container">
         <div id="monaco-editor"></div>
       </div>
     </div>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/monaco-editor/0.26.1/min/vs/loader.min.js"
-      data-uri="https://cdnjs.cloudflare.com/ajax/libs/monaco-editor/0.26.1/min/vs"
-    ></script>
-    <script src="./js/monaco-editor.js" type="module"></script>
   </body>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/monaco-editor/0.26.1/min/vs/loader.min.js"
+    data-uri="https://cdnjs.cloudflare.com/ajax/libs/monaco-editor/0.26.1/min/vs"
+    defer
+  ></script>
+  <script src="./js/monaco-editor.js" type="module" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.7.5/socket.io.min.js"></script>
 </html>
