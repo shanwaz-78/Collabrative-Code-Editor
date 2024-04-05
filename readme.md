@@ -10,6 +10,8 @@ https://github.com/shanwaz-78/Collabrative-Code-Editor
 
 * ## Then Start server using npm start or npm run dev.
 
+* ## server will run on ```8000``` port.
+
 * ## Open the index.html file in the live server then you'll be able to use Editor.
 
 ---
